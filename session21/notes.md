@@ -1,32 +1,32 @@
 # Session #2.1 notes
 
-- [ ] Compile a single C file
+- [x] Compile a single C file
 ```
 gcc hello.c -o hello.out
 ```
-- [ ] Show temporary files
+- [x] Show temporary files
 ```
 gcc hello.c -save-temps -o hello.out
 ```
 
-- [ ] Compile multiple C files
+- [x] Compile multiple C files
 ```
 gcc main.c arithmetic.c user_interface.c -o main.out
 ```
 
-- [ ] Multiple C files with a folder structure
+- [x] Multiple C files with a folder structure
 ```
 gcc main.c arithmetic.c user_interface.c -I../include -o main.out
 ```
 
-- [ ] Multiple C files with a better folder structure
+- [x] Multiple C files with a better folder structure
 ```
 gcc ../src/main.c ../src/arithmetic.c ../src/user_interface.c -I../include -o main.out
 
 gcc main.c arithmetic.c user_interface.c -I../include -o ../bin/main.out
 ```
 
-- [ ] Multiple C files with a better folder structure and MAKE
+- [x] Multiple C files with a better folder structure and MAKE
 
 
 ## Resources
